@@ -14,23 +14,36 @@ My current projects connect optimization-based MEC research with reliable distri
 
 ## Featured Work
 
-### 1. [MEC RDHO Offloading](https://github.com/Ryan-Yii/mec-rdho-offloading)
+### 1. [ReproAudit](https://github.com/Ryan-Yii/reproaudit)
+
+An independently developed, deterministic, rule-based research software tool
+for auditing consistency across experiment configurations, raw runs, summary
+statistics, and reported research claims. See the [v0.1.0 release](https://github.com/Ryan-Yii/reproaudit/releases/tag/v0.1.0),
+the [README](https://github.com/Ryan-Yii/reproaudit#readme), and [GitHub Actions](https://github.com/Ryan-Yii/reproaudit/actions/workflows/ci.yml).
+
+- Ten fixed integrity, statistical, configuration, and conclusion checks
+- Console, Markdown, and strict JSON reports with CI-friendly exit codes
+- Reproducible clean and corrupted MEC examples
+- Python 3.11+, GitHub Actions, MIT License, and CFF citation metadata
+- First public release: v0.1.0
+
+### 2. [MEC RDHO Offloading](https://github.com/Ryan-Yii/mec-rdho-offloading)
 
 Research artefact for QoE- and fairness-aware MEC task-offloading optimization. It organizes configuration-driven experiments, paired repeated runs, baseline comparison, ablation, sensitivity and scalability studies, statistical analysis, and raw reproducibility artefacts. **Manuscript in preparation.**
 
-### 2. [MEC Distributed Task Scheduler](https://github.com/Ryan-Yii/mec-distributed-task-scheduler)
+### 3. [MEC Distributed Task Scheduler](https://github.com/Ryan-Yii/mec-distributed-task-scheduler)
 
 Redis-backed distributed task execution with a FastAPI control plane, atomic task claiming, multiple workers, lifecycle controls, heartbeats, retries, timeouts, cooperative cancellation, observability, Docker Compose, tests, and policy benchmarks. It is a research-oriented distributed-systems implementation and foundation for later MEC and ML-scheduling experiments.
 
-## Additional Projects
-
-### [MEC Offloading Visualizer](https://github.com/Ryan-Yii/mec-offloading-visualizer)
-
-A lightweight, deterministic MEC baseline simulator for comparing local, edge, and cloud execution under supplied configurations and seeds. It is not a production scheduler or a real deployment.
-
-### [Supervised ML Foundations](https://github.com/Ryan-Yii/supervised-ml-foundations)
+### 4. [Supervised ML Foundations](https://github.com/Ryan-Yii/supervised-ml-foundations)
 
 A reproducible two-week supervised-learning study project covering leakage-free evaluation, model selection, and an IoT predictive-maintenance exercise. It documents learning and engineering practice rather than a novel research contribution.
+
+## Additional Projects
+
+### 5. [MEC Offloading Visualizer](https://github.com/Ryan-Yii/mec-offloading-visualizer)
+
+A lightweight, deterministic MEC baseline simulator for comparing local, edge, and cloud execution under supplied configurations and seeds. It is not a production scheduler or a real deployment.
 
 ## Current Direction
 
