@@ -1,63 +1,108 @@
 # Hi, I'm Jiangyi Zhou (Ryan)
 
-I work on mobile edge computing, task offloading, distributed scheduling, edge intelligence, and reproducible machine-learning systems.
+I work at the intersection of AI systems, efficient vision models, agentic systems,
+and edge/distributed computing.
 
-My current projects connect optimization-based MEC research with reliable distributed execution infrastructure.
+My current work spans lightweight Vision Transformer research, algorithm-evaluation
+infrastructure, safety-aware reliability agents, and reproducible optimization systems.
 
-## Research Focus
+## Research Interests
 
-- Mobile Edge Computing
-- Task Offloading and Resource Allocation
-- Distributed Task Scheduling
-- Edge Intelligence and ML Systems
-- Reproducible Optimization and Evaluation
+- Efficient Vision Models and Model Compression
+- AI Systems and Distributed Execution
+- Agentic AI
+- Edge and Distributed Intelligence
+- Reproducible Machine Learning Research
 
-## Featured Work
+## Research & Ongoing Work
 
-### 1. [ReproAudit](https://github.com/Ryan-Yii/reproaudit)
+### Efficient Vision Models
 
-An independently developed, deterministic, rule-based research software tool
-for auditing consistency across experiment configurations, raw runs, summary
-statistics, and reported research claims. See the [v0.1.0 release](https://github.com/Ryan-Yii/reproaudit/releases/tag/v0.1.0),
-the [README](https://github.com/Ryan-Yii/reproaudit#readme), and [GitHub Actions](https://github.com/Ryan-Yii/reproaudit/actions/workflows/ci.yml).
+**Status: Ongoing research**
 
-- Ten fixed integrity, statistical, configuration, and conclusion checks
-- Console, Markdown, and strict JSON reports with CI-friendly exit codes
-- Reproducible clean and corrupted MEC examples
-- Python 3.11+, GitHub Actions, MIT License, and CFF citation metadata
-- First public release: v0.1.0
+I am studying lightweight and hierarchical vision models through vHeat and Vision
+Transformer reproduction and analysis. Current work covers reproducible ImageNet
+validation, component- and stage-wise parameter/FLOP analysis, stage-aware FFN
+reduction, and surrogate-guided study of accuracy-efficiency trade-offs with frozen
+holdout evaluation.
 
-### 2. [MEC RDHO Offloading](https://github.com/Ryan-Yii/mec-rdho-offloading)
+### [MEC Optimization](https://github.com/Ryan-Yii/mec-rdho-offloading)
 
-Research artefact for QoE- and fairness-aware MEC task-offloading optimization. It organizes configuration-driven experiments, paired repeated runs, baseline comparison, ablation, sensitivity and scalability studies, statistical analysis, and raw reproducibility artefacts. **Manuscript in preparation.**
+**Status: Established research artefact**
 
-### 3. [MEC Distributed Task Scheduler](https://github.com/Ryan-Yii/mec-distributed-task-scheduler)
+A manuscript-oriented reproducibility package for capacity-feasible MEC task
+offloading, execution-node selection, and physical CPU allocation. It includes
+configuration-driven paired experiments across multiple baselines, controlled
+comparisons, ablations, sensitivity studies, statistical analysis, and raw evidence.
 
-Redis-backed distributed task execution with a FastAPI control plane, atomic task claiming, multiple workers, lifecycle controls, heartbeats, retries, timeouts, cooperative cancellation, observability, Docker Compose, tests, and policy benchmarks. It is a research-oriented distributed-systems implementation and foundation for later MEC and ML-scheduling experiments.
+### Agentic AI / AutoSRE
 
-### 4. [Supervised ML Foundations](https://github.com/Ryan-Yii/supervised-ml-foundations)
+**Status: Ongoing project**
 
-A reproducible two-week supervised-learning study project covering leakage-free evaluation, model selection, and an IoT predictive-maintenance exercise. It documents learning and engineering practice rather than a novel research contribution.
+A safety-aware agentic workflow for diagnosing, planning, executing, verifying, and
+rolling back remediation actions in cloud-native systems. The project is being
+designed around reproducible fault scenarios and measurable diagnosis, recovery,
+MTTR, and safe-action outcomes.
 
-## Additional Projects
+## Systems & Engineering
 
-### 5. [MEC Offloading Visualizer](https://github.com/Ryan-Yii/mec-offloading-visualizer)
+### Algorithm Evaluation Platform — Industry Engineering Experience
 
-A lightweight, deterministic MEC baseline simulator for comparing local, edge, and cloud execution under supplied configurations and seeds. It is not a production scheduler or a real deployment.
+Worked on a full-stack algorithm evaluation platform spanning FastAPI backend
+services, React/Vite frontend workflows, Kubernetes/Pod-based execution, and
+frontend-backend integration.
 
-## Current Direction
+- Built and debugged run-management, structured-evaluator, correctness/quality-metric,
+  artifact-discovery, and result-visualization workflows.
+- Contributed to testing, CI, GitHub-integrated development, and iterative platform
+  engineering across the evaluation lifecycle.
 
-- Connect MEC optimization with online distributed scheduling.
-- Evaluate scheduling under dynamic workloads with reproducible system benchmarks.
-- Study learning-based scheduling after the foundational system is stable.
-- Improve generalization, robustness, and fairness evaluation.
+### [Distributed Task Scheduler](https://github.com/Ryan-Yii/mec-distributed-task-scheduler)
 
-## Technical Skills
+**Status: Open-source software**
 
-**Programming:** Python, Java, C
-**Systems:** FastAPI, Redis, Docker Compose, REST APIs, concurrent workers
-**ML and Research:** scikit-learn, optimization, statistical evaluation, reproducible experiments
+A public Redis-backed distributed-execution foundation with a FastAPI control plane,
+concurrent workers, atomic claiming, lifecycle controls, leases, retries, timeouts,
+cancellation, heartbeats, observability, tests, and containerized deployment. Its
+current `main` provides the systems foundation and does not claim completed formal
+policy-performance conclusions.
+
+## Open-Source Research Software
+
+### [ReproAudit](https://github.com/Ryan-Yii/reproaudit)
+
+**Status: Open-source research software**
+
+A deterministic auditing tool for checking consistency across experiment
+configurations, raw runs, summaries, and reported research claims, with structured
+reports and CI-oriented validation.
+
+### Supporting Open-Source Work
+
+- **[MEC Offloading Visualizer](https://github.com/Ryan-Yii/mec-offloading-visualizer)**
+  — a deterministic simulator for local, edge, and cloud baseline analysis.
+- **[Supervised ML Foundations](https://github.com/Ryan-Yii/supervised-ml-foundations)**
+  — reproducible supervised-learning and IoT predictive-maintenance learning and
+  engineering practice.
+
+## Current Research Direction
+
+- Efficient Vision Transformer and vHeat architecture research
+- Model compression and surrogate-guided architecture search
+- Agentic systems with measurable safety, diagnosis, and recovery behavior
+- Reproducible AI-systems experimentation and research auditing
+- Edge and distributed intelligence where it supports these research questions
+
+## Technical Stack
+
+**ML / Research:** PyTorch, scikit-learn, model evaluation, optimization, statistical analysis
+
+**AI Systems:** FastAPI, Redis, Docker, Kubernetes, REST APIs
+
+**Frontend / Platform:** React, Vite, visualization and evaluation interfaces
+
+**Engineering:** Python, Git/GitHub, CI, testing, reproducible experiment pipelines
 
 ## Contact
 
-ryan.zhoujiangyi@gmail.com
+[ryan.zhoujiangyi@gmail.com](mailto:ryan.zhoujiangyi@gmail.com)
